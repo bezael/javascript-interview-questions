@@ -5,7 +5,7 @@ function isTwin(a, b) {
       .split('')
       .sort()
       .join();
-  return toLowerSort(a) == toLowerSort(b) ? true : false;
+  return toLowerSort(a) == toLowerSort(b);
 }
 
 console.log('same    :', isTwin('Aaaba', 'baaaa'));
