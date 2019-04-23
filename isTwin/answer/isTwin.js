@@ -9,4 +9,4 @@ function isTwin(a, b) {
 }
 
 console.log('same    :', isTwin('Aaaba', 'baaaa'));
-console.log('not same:', isTwin('Aaaba', 'baaaa'));
+console.log('not same:', isTwin('Aaaba', 'baawaa'));
