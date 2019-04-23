@@ -13,4 +13,5 @@ function isTwin(a, b) {
     : false;
 }
 
-console.log(isTwin('Aaaba', 'baaaa'));
+console.log('same    :', isTwin('Aaaba', 'baaaa'));
+console.log('not same:', isTwin('Aaaba', 'baaaa'));
