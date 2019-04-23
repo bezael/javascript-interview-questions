@@ -1,16 +1,11 @@
 function isTwin(a, b) {
-  return a
-    .toLowerCase()
-    .split('')
-    .sort()
-    .join('') ==
-    b
+  const toLowerSort = str =>
+    str
       .toLowerCase()
       .split('')
       .sort()
-      .join('')
-    ? true
-    : false;
+      .join();
+  return toLowerSort(a) == toLowerSort(b) ? true : false;
 }
 
 console.log('same    :', isTwin('Aaaba', 'baaaa'));
