@@ -1,6 +1,21 @@
-## 10min-javascript-interview-questions
+# Javascript interview problems
 
-Those are some questions you can ask to your canditates.
-There is an answer to each question in the answer folder of each problem.
+Those are some interesting interview questions that can help you check the algorithmic capabilities and the syntax knowledge of your future collegue or employee.
 
-The goal of those problems is not to check the algorithmic capabilities but to check the syntax knowledge.
+There is an answer to each question in the answer file.
+
+## To transpile the TS to JS
+
+### Prerequisite
+
+You need to install typescript:
+
+```
+npm install -g typescript
+```
+
+### Transpile then run
+
+```
+tsc ./solution.ts && node ./solution.js
+```
